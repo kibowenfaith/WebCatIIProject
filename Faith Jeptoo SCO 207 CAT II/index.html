@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice Cream Delight</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Ice Cream Delight</h1>
+        <p>Your ultimate destination for delightful ice cream flavors!</p>
+        <div class="header">
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="navigation">
+            </div>
+        </div>
+
+    </header>
+    
+
+    <nav>
+        <a href="#flavors">Flavors</a>
+        <a href="#specials">Specials</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <div class="main-content">
+        <section id="flavors">
+            <h2>Our Flavors</h2>
+            <p>Explore a wide range of creamy, delicious flavors made from the finest ingredients.</p>
+            <div class="flavors">
+                <div class="flavor-card">
+                    <img src="images/vanilla1.jpg" alt="Vanilla">
+                    <h3>Vanilla</h3>
+                    <p>Classic and creamy, the perfect treat for any occasion.</p>
+                    <button class="order-btn" onclick="orderFlavor('Vanilla')">Order Now</button>
+                </div>
+                <div class="flavor-card">
+                    <img src="images/chocolate.jpg" alt="Chocolate">
+                    <h3>Chocolate</h3>
+                    <p>Rich and indulgent, crafted for chocolate enthusiasts.</p>
+                    <button class="order-btn" onclick="orderFlavor('Chocolate')">Order Now</button>
+                </div>
+                <div class="flavor-card">
+                    <img src="images/strawberry.jpg" alt="Strawberry">
+                    <h3>Strawberry</h3>
+                    <p>Fresh, fruity, and a burst of natural sweetness.</p>
+                    <button class="order-btn" onclick="orderFlavor('Strawberry')">Order Now</button>
+                </div>
+                <div class="flavor-card">
+                    <img src="images/mint.jpg" alt="Mint Chocolate Chip">
+                    <h3>Mint Chocolate Chip</h3>
+                    <p>Refreshing mint with chunks of decadent chocolate.</p>
+                    <button class="order-btn" onclick="orderFlavor('Mint Chocolate Chip')">Order Now</button>
+                </div>
+                <div class="flavor-card">
+                    <img src="images/caramel.webp" alt="Caramel Swirl">
+                    <h3>Caramel Swirl</h3>
+                    <p>Sweet caramel ribbons swirled into creamy goodness.</p>
+                    <button class="order-btn" onclick="orderFlavor('Caramel Swirl')">Order Now</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="specials">
+            <h2>Today's Specials</h2>
+            <p>Don't miss out on our limited-time specials:</p>
+            <ul>
+                <li>Buy one scoop, get one free on Tuesdays!</li>
+                <li>Exclusive "Rainbow Sundae" available only this weekend.</li>
+                <li>Discounted family packs for every occasion.</li>
+            </ul>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>At Ice Cream Delight, we believe in spreading happiness through our wide variety of handcrafted ice creams. Every scoop is made with love, premium ingredients, and a touch of magic!</p>
+            <img src="images/store.jpg" alt="Our Ice Cream Shop" style="width: 100%; border-radius: 8px;">
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have any questions or special requests? Reach out to us!</p>
+            <p>Email: <a href="mailto:contact@icecreamdelight.com">contact@icecreamdelight.com</a></p>
+            <p>Phone: +123-456-7890</p>
+            <p>Address: 123 Sweet Street, Flavor Town</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Ice Cream Delight. All rights reserved. Follow us on 
+            <a href="#">Facebook</a>, <a href="#">Instagram</a>, and <a href="#">Twitter</a>.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
