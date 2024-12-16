@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #ff6f61;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #ff9e80;
+    padding: 0.5rem 0;
+}
+
+nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    padding: 2rem;
+    text-align: center;
+}
+
+.main-content h2 {
+    color: #ff6f61;
+}
+
+.flavors {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.flavor-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.flavor-card:hover {
+    transform: scale(1.05);
+}
+
+.flavor-card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.flavor-card h3 {
+    margin: 1rem 0 0.5rem;
+    color: #ff6f61;
+}
+
+.order-btn {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.order-btn:hover {
+    background-color: #e65b50;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #ff6f61;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
